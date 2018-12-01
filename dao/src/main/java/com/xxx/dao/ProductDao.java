@@ -10,6 +10,11 @@ public interface ProductDao {
      * 查询所有的方法
      */
     List<Product> findAllProduct();
+
+    /**
+     * 注释
+     */
+    void saveProduct(Product product);
 }
 
 
